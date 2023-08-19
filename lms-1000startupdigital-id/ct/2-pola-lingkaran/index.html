@@ -11,16 +11,18 @@
   </head>
   <body>
     <script>
-      function forloping {
+      function forloping(n) {
        let hasil = '';
-       for (let i = 1; i <= 10 + 1; i++) {
-        for (let j = 1; j <= 10 + 2; j++) {
+       for (let i = 1; i <= n + 1; i++) {
+        for (let j = 1; j <= n + 2; j++) {
           hasil += '🐅';
         }
         hasil += '/n';
        }
       console.log(hasil);
       }
+
+      forloping(5);
     </script>
   </body>
 </html>
