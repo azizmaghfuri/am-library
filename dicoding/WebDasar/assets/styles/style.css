@@ -59,3 +59,8 @@ nav li {
   list-style-type: none;
   margin-right: 20px;
 }
+
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+}
