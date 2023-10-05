@@ -71,3 +71,7 @@ nav {
 main {
   padding: 20px;
 }
+
+#content {
+  float: left;
+}
