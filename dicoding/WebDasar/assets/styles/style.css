@@ -81,4 +81,5 @@ main {
 aside {
   float: right;
   width: 25%;
+  padding-left: 20px;
 }
