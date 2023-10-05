@@ -70,6 +70,7 @@ nav {
 
 main {
   padding: 20px;
+  overflow: auto;
 }
 
 #content {
