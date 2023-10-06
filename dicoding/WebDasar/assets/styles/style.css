@@ -67,6 +67,11 @@ nav li {
   margin-right: 20px;
 }
 
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+}
+
 nav {
    background-color: #00a2c6;
    padding: 5px;
