@@ -118,3 +118,32 @@ main .content .content-image img {
   min-width: 250px;
   width: 300px;
 }
+
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+}
+ 
+main aside .social-media {
+  height: 100%;
+  display: flex;
+}
+ 
+main aside .social-media ul {
+  padding: 1.5rem 1rem;
+  margin: auto;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #2D3E50;
+ 
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+ 
+main aside .social-media li {
+  list-style-type: none;
+}
