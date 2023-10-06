@@ -114,7 +114,15 @@ h3 {
   }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+ nav ul {
+    justify-content: center;
+  }
+ 
+  main aside {
+    align-self: stretch;
+  }
+}
  
 @media screen and (max-width: 1000px) {
   #content,
