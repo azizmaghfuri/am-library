@@ -165,4 +165,9 @@ main aside .social-media li a:hover {
  header.navbar-container {
     flex-direction: column;
   }
+
+ header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: .5rem;
+  }
 }
