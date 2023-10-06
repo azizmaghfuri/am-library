@@ -158,3 +158,7 @@ main aside .social-media li a {
 main aside .social-media li a:hover {
   color: #89b0d9;
 }
+/*End of Main Content*/
+ 
+/* Medium devices (landscape tablets, 768px and down) */
+@media screen and (max-width: 768px) {}
