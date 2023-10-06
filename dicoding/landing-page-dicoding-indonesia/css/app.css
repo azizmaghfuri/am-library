@@ -12,3 +12,19 @@ body {
  display: flex;
  flex-direction: column;
 }
+
+header.navbar-container {
+ max-width: 1200px;
+ width: 100%;
+ margin-inline: auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ 
+ padding-block: 1rem;
+ z-index: 999;
+}
+ 
+header.navbar-container .logo img {
+ width: 150px;
+}
