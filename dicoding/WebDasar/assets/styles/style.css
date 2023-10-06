@@ -105,7 +105,15 @@ h3 {
   padding: 20px;
 }
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+ main {
+    flex-flow: column nowrap;
+  }
+  main aside {
+    align-self: center;
+  }
+}
+
 @media screen and (max-width: 768px) {}
  
 @media screen and (max-width: 1000px) {
