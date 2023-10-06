@@ -61,6 +61,13 @@ nav a:hover {
   color: white;
 }
 
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
 nav li {
   display: inline;
   list-style-type: none;
@@ -70,13 +77,6 @@ nav li {
 nav ul {
   padding-inline: 4rem;
   display: flex;
-}
-
-nav {
-   background-color: #00a2c6;
-   padding: 5px;
-   position: sticky;
-   top: 0;
 }
 
 main {
