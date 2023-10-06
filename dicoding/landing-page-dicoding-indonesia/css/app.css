@@ -161,4 +161,8 @@ main aside .social-media li a:hover {
 /*End of Main Content*/
  
 /* Medium devices (landscape tablets, 768px and down) */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+ header.navbar-container {
+    flex-direction: column;
+  }
+}
