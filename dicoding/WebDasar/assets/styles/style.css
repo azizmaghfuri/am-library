@@ -80,7 +80,8 @@ nav li {
 
 main {
   padding: 20px;
-  overflow: auto;
+  display: flex;
+  gap: 1.5rem;
 }
 
 #content {
