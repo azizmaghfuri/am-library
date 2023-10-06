@@ -164,15 +164,19 @@ main aside .social-media li a:hover {
 @media screen and (max-width: 768px) {
  header.navbar-container {
     flex-direction: column;
-  }
+ }
 
  header.navbar-container .nav-list ul {
     flex-wrap: wrap;
     column-gap: .5rem;
-  }
+ }
 
+ main {
+    padding: 1rem 3rem;
+ }
+ 
  main .content {
     flex-direction: column;
     gap: 2rem;
-  }
+ }
 }
