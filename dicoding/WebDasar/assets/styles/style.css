@@ -90,6 +90,10 @@ aside {
   padding-left: 20px;
 }
 
+header {
+  display: inline;
+}
+
 @media screen and (max-width: 1000px) {
   #content, aside {
     width: 100%;
