@@ -71,11 +71,11 @@ nav {
 nav ul {
   padding-inline: 4rem;
   display: flex;
+  gap: 2rem;
 }
 
 nav li {
   list-style-type: none;
-  margin-right: 20px;
 }
 
 main {
